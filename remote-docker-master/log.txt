@@ -1,0 +1,14 @@
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1m500-InternalError 
+[31m│[0m [0mProvider version: 4.69.0, released on 2022-03-23. This provider is 50 Update(s) behind to current. 
+[31m│[0m [0mService: Core Instance 
+[31m│[0m [0mError Message: Out of host capacity. 
+[31m│[0m [0mOPC request ID: b3443d16929844e3dba4176894fa2e12/59069B9E7B914260499AC2069CB15D5E/74422A06FE07A0C1846A27C9151490BA 
+[31m│[0m [0mSuggestion: The service for this resource encountered an error. Please contact support for help with service: Core Instance
+[31m│[0m [0m[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with oci_core_instance._["1"],
+[31m│[0m [0m  on main.tf line 19, in resource "oci_core_instance" "_":
+[31m│[0m [0m  19: resource "oci_core_instance" "_" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
