@@ -1,0 +1,30 @@
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mError making request[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with data.http.apt_repo_key,
+[31m│[0m [0m  on cloudinit.tf line 69, in data "http" "apt_repo_key":
+[31m│[0m [0m  69: data "http" "apt_repo_key" [4m{[0m[0m
+[31m│[0m [0m
+[31m│[0m [0mError making request: Get
+[31m│[0m [0m"https://packages.cloud.google.com/apt/doc/apt-key.gpg.asc": dial tcp
+[31m│[0m [0m142.251.16.113:443: i/o timeout
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mGet "https://identity.us-phoenix-1.oci.oraclecloud.com/20160918/compartments/ocid1.compartment.oc1..aaaaaaaaaqdrcfw3lcoci6zexp7mig2w7flnegjyl7hi5atrsxx5xksw6cgq": dial tcp: lookup identity.us-phoenix-1.oci.oraclecloud.com: no such host[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with oci_identity_compartment._,
+[31m│[0m [0m  on main.tf line 1, in resource "oci_identity_compartment" "_":
+[31m│[0m [0m   1: resource "oci_identity_compartment" "_" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+
+
+
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mPost "https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances": read tcp 10.0.0.47:60351->129.146.14.226:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with oci_core_instance._["1"],
+[31m│[0m [0m  on main.tf line 19, in resource "oci_core_instance" "_":
+[31m│[0m [0m  19: resource "oci_core_instance" "_" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
