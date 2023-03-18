@@ -3,10 +3,12 @@
 Inspired by Rafael Zimmermann's post: https://medium.com/codex/run-your-docker-containers-for-free-in-the-cloud-and-for-unlimited-time-361515cb0876
 
 This is a batchfile bot designed to run the "terraform apply" command once
-per minute, in order to create and setup a VM with Docker already installed,
-which can use to run multiple sizable container applications. It creates it in
-Oracle's Cloud Infrastructure. Their highest free offering is 24 GB of RAM which
-can support most small-site needs.
+per minute, in order to create a VM with Docker already installed and
+running in Oracle's Cloud Infrastructure,
+which can be used to run multiple sizable container applications.
+
+This is thanks to Oracle's Cloud Infrastructure free tier. Their highest free
+offering is 24 GB of RAM which can support most small-site needs.
 
 To run it, first you need to configure the clicking script. It's required to run oci session
 authenticate (no, the session refresh command doesn't prevent you from loggging
